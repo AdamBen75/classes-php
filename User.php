@@ -132,4 +132,20 @@ class User {
     public function getLastname() {
         return $this->lastname;
     }
+
+    public function setLogin($login) {
+        $this->login = $login;
+    }
+
+    public function setEmail($email) {
+        $this->email = $email;
+    }
+
+    public function setFirstname($firstname) {
+        $this->firstname = $firstname;
+    }
+
+    public function setLastname($lastname) {
+        $this->lastname = $lastname;
+    }
 }
